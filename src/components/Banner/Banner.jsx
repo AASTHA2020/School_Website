@@ -32,7 +32,7 @@ const Banner = () => {
               transition={{ duration: 0.5 }}
               className="text-3xl md:text-4xl font-bold !leading-snug"
             >
-              The World's Leading Online learning Platform
+              "Enroll your child today for a brighter tomorrow and a path to success.
             </motion.h1>
             <div className="flex flex-col gap-6">
               <motion.div
@@ -43,7 +43,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <FaBookReader className="text-2xl" />
-                <p className="text-lg">10,000+ Courses</p>
+                <p className="text-lg">50+ Experienced Faculty</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.4)}
@@ -53,7 +53,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <GrUserExpert className="text-2xl" />
-                <p className="text-lg">Expert Instruction</p>
+                <p className="text-lg">Personalized Learning</p>
               </motion.div>
               <motion.div
                 variants={FadeUp(0.6)}
@@ -63,7 +63,7 @@ const Banner = () => {
                 className="flex items-center gap-4 p-6 bg-[#f4f4f4] rounded-2xl hover:bg-white duration-300 hover:shadow-2xl"
               >
                 <MdOutlineAccessTime className="text-2xl" />
-                <p className="text-lg">Lifetime Access</p>
+                <p className="text-lg">Values-Based Education</p>
               </motion.div>
             </div>
           </div>
