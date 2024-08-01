@@ -20,18 +20,20 @@ const OurTeam = () => {
     <div className="container py-16">
       <h1 className="text-4xl font-bold mb-6">Our Team</h1>
       <p className="mb-6">Meet our dedicated team of educators and administrators:</p>
-      <ul className="list-none space-y-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {teamMembers.map((member) => (
-          <li key={member.name} className="flex items-center space-x-6">
-            <img src={member.img} alt={member.name} className="w-24 h-24 rounded-full object-cover shadow-md" />
-            <div>
-              <h2 className="text-2xl font-semibold">{member.name}</h2>
-              <p className="text-lg font-medium">{member.title}</p>
-              <p className="mt-2">{member.description}</p>
-            </div>
-          </li>
+          <div key={member.name} className="flex flex-col items-center text-center">
+            <img
+              src={member.img}
+              alt={member.name}
+              className="w-32 h-32 rounded-full object-cover shadow-md mb-4"
+            />
+            <h2 className="text-2xl font-semibold">{member.name}</h2>
+            <p className="text-lg font-medium">{member.title}</p>
+            <p className="mt-2">{member.description}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
