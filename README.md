@@ -64,5 +64,7 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/AASTHA2020/School_Website
    cd School_Website
-npm install
-npm run dev
+   npm install
+   npm run dev or npm start
+
+
